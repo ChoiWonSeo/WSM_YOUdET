@@ -1,0 +1,174 @@
+.sear-container {
+    display: flex;
+    justify-content: center;
+}
+.search {
+    margin-top: 170px;
+    width: 800px;
+    border-radius: 40px;
+    background-color: #ffecb8;
+    height: 300px;
+    margin-bottom: 20px;
+}
+select {
+    width: 300px;
+    height: 38px;
+    margin-bottom: 20px;
+    border: solid 2px #FF974D;
+    border-radius: 40px;
+    margin-left: 20px;
+}
+.sel {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 18px;
+}
+.label {
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+.btn {
+    width: 160px;
+    height: 40px;
+    border-radius: 40px;
+    border: none;
+    background-color: #FF974D;
+    font-weight: bold;
+    color: #fff;
+    font-size: 18px;
+    display: block;
+    margin: auto;
+}
+.btn:hover {
+    color: #FF974D;
+    background-color: #fff;
+    border: solid 1px #FF974D;
+}
+
+.sear-container2 {
+    width: 900px;
+    margin: 0 auto;
+    /* border: solid 1px gray; */
+}
+
+.list {
+    list-style: none;
+    margin-top: 30px;
+}
+.lists {
+    width: 900px;
+    height: 920px;
+}
+.listtxt {
+    margin-top: 80px;
+    margin-bottom: 20px;
+    font-size: 20px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+}
+.sear-list {
+    width: 900px;
+    height: 40px;
+    background-color: #BECDF3;
+    border-radius: 40px;
+    margin-bottom: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+}
+
+@media screen and (max-width:980px) {
+    .sear-list {
+        width: 700px;
+    }
+    .search {
+        width: 600px;
+    }
+    .sear-container2 {
+        width: 700px;
+        margin: 0 auto;
+    }
+    select {
+        width: 300px;
+        height: 35px;
+    }
+    .label {
+        font-size: 18px;
+        font-weight: bold;
+        margin-bottom: 20px;
+    }
+    .btn {
+        width: 140px;
+        height: 40px;
+        font-size: 16px;
+    }
+}
+
+@media screen and (min-width:666px) and (max-width:800px) {
+    .sear-list {
+        width: 600px;
+        font-size: 15px;
+        font-weight: bold;
+    }
+    .search {
+        width: 500px;
+    }
+    .sear-container2 {
+        width: 600px;
+        margin: 0 auto;
+    }
+    select {
+        width: 300px;
+        height: 35px;
+        margin-bottom: 22px;
+    }
+    .label {
+        font-size: 17px;
+        font-weight: bold;
+        margin-bottom: 20px;
+    }
+    .btn {
+        width: 140px;
+        height: 40px;
+        font-size: 16px;
+    }
+    .listtxt {
+        font-size: 18px;
+    }
+}
+@media screen and (max-width:666px) {
+    .sear-list {
+        width: 470px;
+        font-size: 13px;
+        font-weight: bold;
+    }
+    .search {
+        width: 470px;
+    }
+    .sear-container2 {
+        width: 470px;
+        margin: 0 auto;
+    }
+    select {
+        width: 300px;
+        height: 35px;
+        margin-bottom: 22px;
+    }
+    .label {
+        font-size: 17px;
+        font-weight: bold;
+        margin-bottom: 20px;
+    }
+    .btn {
+        width: 140px;
+        height: 40px;
+        font-size: 16px;
+    }
+    .listtxt {
+        margin-top: 60px;
+        font-size: 16px;
+    }
+}

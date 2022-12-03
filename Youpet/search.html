@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ABDdet-search</title>
+    <link href="https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/search.css">
+    <link rel="stylesheet" href="css/nav.css">
+</head>
+<body>
+
+    <!-- nav -------------------------------------------------------------------------------------------------------->
+    <header class="header" id="header">
+        <nav class="nav1">
+            <div class="nav-toggle" id="nav-toggle">
+                <i class='bx bx-menu'></i>
+            </div>
+            <div class="img">
+                <img class="logo" id="logo" src="./img/logo.png">
+            </div>
+            <li class="setting" id="setting">
+                <a href="set.html" class="nav-set">
+                    <i class='bx bx-cog'></i>
+                </a>
+            </li>
+        </nav>
+        <div class="nav-menu">
+            <ul class="nav-list" id="nav-list">
+                <li class="nav-item">
+                    <a href="today.html" class="nav-link">
+                        Today
+                    </a>
+                </li>
+                <li class="bet">|</li>
+                <li class="nav-item">
+                    <a href="search.html" class="nav-link">
+                        Search
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </header>
+    
+
+    <div class="sear-container">
+        <div class="search">
+            <div class="sel">
+                <label class="label">지역 선택 : </label>
+                <select id="udet">
+                    <option value="경기">경기</option>
+                    <option value="서울">서울</option>
+                    <option value="인천">인천</option>
+                    <option value="대구">대구</option>
+                    <option value="부산">부산</option>
+                    <option value="제주">제주</option>
+                </select>
+            </div>
+            <div class="sel">
+                <label class="label">장소 선택 : </label>
+                <select id="udet">
+                    <option value="ㅁㅁ보호소">ㅁㅁ보호소</option>
+                    <option value="ㅍㅍ보호소">ㅍㅍ보호소</option>
+                    <option value="ㅂㅂ보호소">ㅂㅂ보호소</option>
+                    <option value="ㄷㄷ보호소">ㄷㄷ보호소</option>
+                    <option value="ㅎㅎ보호소">ㅎㅎ보호소</option>
+                    <option value="ㅇㅇ보호소">ㅇㅇ보호소</option>
+                </select>
+            </div>
+            <div class="sel">
+                <label class="label">종류 선택 : </label>
+                <select id="udet">
+                    <option value="개">개</option>
+                    <option value="고양이">고양이</option>
+                    <option value="토끼">토끼</option>
+                    <option value="닭">닭</option>
+                    <option value="기타">기타</option>
+                </select>
+            </div>
+            <div class="sel">
+                <label class="label">품종 선택 : </label>
+                <select id="udet">
+                    <option value="프렌치불독">프렌치불독</option>
+                    <option value="진돗개">진돗개</option>
+                    <option value="말티즈">말티즈</option>
+                    <option value="푸들">푸들</option>
+                    <option value="도베르만">도베르만</option>
+                    <option value="불독">불독</option>
+                    <option value=". . .">. . .</option>
+                    <option value=". . .">. . .</option>
+                    <option value=". . .">. . .</option>
+                    <option value=". . .">. . .</option>
+                </select>
+            </div>
+        </div>
+    </div>
+    <button type="submit" class="btn">검색하기</button>
+
+    <div class="sear-container2">
+    <li class="list"><div class="listtxt">- 검색결과 *(클릭 시 자세한 내용으로 이동합니다.) - </div>
+        <div class="lists">
+            <div class="sear-list">경기도 양평군 양서면 ㅇㅇ소망보호소 - [프렌치불독] 수컷 2.5kg (귀 접힘)</div>
+            <div class="sear-list">경기도 용인시 ㅇㅇㅇ -----------------------------------------------(--------)</div>
+            <div class="sear-list">경기도 연천군 ㅇㅇㅇ -----------------------------------------------(--------)</div>
+            <div class="sear-list">경기도 가평군 ㅇㅇㅇ -----------------------------------------------(--------)</div>
+            <div class="sear-list">경기도 포천시 ㅇㅇㅇ -----------------------------------------------(--------)</div>
+            <div class="sear-list">경기도 하남시 ㅇㅇㅇ -----------------------------------------------(--------)</div>
+            <div class="sear-list">경기도 여주시 ㅇㅇㅇ -----------------------------------------------(--------)</div>
+            <div class="sear-list">경기도 광주시 ㅇㅇㅇ -----------------------------------------------(--------)</div>
+            <div class="sear-list">경기도 이천시 ㅇㅇㅇ -----------------------------------------------(--------)</div>
+            <div class="sear-list">경기도 파주시 ㅇㅇㅇ -----------------------------------------------(--------)</div>
+            <div class="sear-list">경기도 김포시 ㅇㅇㅇ -----------------------------------------------(--------)</div>
+            <div class="sear-list">경기도 시흥시 ㅇㅇㅇ -----------------------------------------------(--------)</div>
+            <div class="sear-list">경기도 화성시 ㅇㅇㅇ -----------------------------------------------(--------)</div>
+            <div class="sear-list">경기도 평택시 ㅇㅇㅇ -----------------------------------------------(--------)</div>
+            <div class="sear-list">경기도 성남시 ㅇㅇㅇ -----------------------------------------------(--------)</div>
+            <div class="sear-list">.........</div>
+        </div>
+    </li>
+    </div>
+</body>
+</html>
